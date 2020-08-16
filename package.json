@@ -1,0 +1,23 @@
+{
+  "name": "musicplayer",
+  "version": "1.0.0",
+  "description": "first electrone js project",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "devStart": "nodemon index.j"
+  },
+  "author": "Dilshan",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.0.5"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "electron-reload": "^1.5.0",
+    "jsmediatags": "^3.9.3",
+    "music-metadata": "^7.0.2",
+    "node-id3": "^0.1.18",
+    "nodemon": "^2.0.4"
+  }
+}
